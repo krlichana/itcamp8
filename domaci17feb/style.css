@@ -1,0 +1,17 @@
+#main{
+    width: 500px;
+    height: 150px;
+    border: 1px solid grey;
+border-radius: 10px;
+}
+
+.naslov{
+    padding: 5px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tekst{
+font-size: 12x;
+text-decoration: grey;
+padding: 3px;
+}
