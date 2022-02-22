@@ -1,0 +1,45 @@
+.card{
+    background-color: rgb(43, 38, 38);
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+.foto{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+h1{
+    color: aliceblue;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
+h5{
+    color: rgb(146, 139, 139);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+    margin: 3px auto;
+}
+.mainfoto{
+    width:300px;
+    height: 150px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+.icondiv{
+ width: 200px;
+    height: 30px;
+    margin: 2px auto;
+
+}
+.icon{
+    font-size: 25px;
+color: rgb(158, 155, 152);
+margin: auto 20px;
+}
+
