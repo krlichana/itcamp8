@@ -1,0 +1,30 @@
+.square{
+    background-color:rgb(221, 214, 204);
+    width:320px;
+    height: 170px;
+    display: inline-block;
+    margin: 40px 36px;
+    padding: 25px;
+    border-radius: 5px;
+}
+h1{
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline;
+    padding: 5px;
+    text-align: center;
+
+}
+p{
+    margin: 20px auto;
+    font-size: 17px;
+}
+img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+}
+a{
+    padding-left: 3px;
+}
