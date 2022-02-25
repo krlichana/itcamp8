@@ -1,0 +1,43 @@
+.card{
+    width: 300px;
+    height: 400px;
+    border: 1px solid purple;
+    border-radius: 8px;
+}
+.popular{
+   display: block;
+   background-color: purple;
+    width: 80px;
+    height: 30px;
+    margin-left: 220px;
+    margin-top: -20px;
+}
+.price, .check, .dugme{
+    margin:12px
+}
+.price{
+    font-size: 20px;
+}
+.check{
+    font-size: 15px;
+    height: 150px;
+    margin:15px;
+}
+.dugme{
+    padding: 2px 5px;
+    background-color: rgb(231, 148, 211);
+    height: 50px;
+}
+   
+}
+h2:hover{
+    background-color: purple;
+}
+.str{
+    margin: 2px;
+}
+.strelica{
+    font-size: 20px;
+    margin-left: 230px;
+    padding-bottom: -20px;
+}
