@@ -58,5 +58,7 @@ p{
 .icon{
     font-size: 20px;
     margin: 86px 0;
-    color: rgba(32, 88, 179, 0.74);
+    color: rgba(220, 226, 236, 0.74);
+    background-color: rgba(17, 50, 102, 0.74);
+    border-radius: 30%;
 }

@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightgray;
+}
+.nav{
+    width: 100%;
+    height: 38px;
+    background-color: black;
+}
+
+.icon{
+    color: aliceblue;
+    width: 20px;
+    height: 40px;
+    margin: 4px 12px;
+    padding-top: 5px;
+}
+.proba:hover{
+    background-color: rgb(190, 216, 236);
+    color: black;
+    width: 40px;
+    height: 20px;
+}
+.lupa{
+    float: right;
+    padding-right: 5px;
+}
+.header{
+width: auto;
+height: 150px;
+border: 1px solid black;
+text-align: center;
+padding-top: 75px;
+background-color: white;
+}
+h1,h6{
+    font-family:sans-serif;
+}
+h1{
+    padding-bottom: 10px;
+}
+.header>h6{
+
+    font-size: 15px;
+}
+.kocka{
+    background-color: black;
+    color:white;
+    display: inline;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+img{
+    max-width:100%;
+    height: auto;
+
+}
+.mainfoto{
+    position: relative;
+    bottom: 20px;
+
+}
+.textinfoto{
+    font-size: 20px;
+    color: aliceblue;
+    position: absolute;
+    top: 560px;
+    margin-left: 20px;
+    padding: 20px;
+}
+.vecitekst{
+    font-size: 27px;
+}
+.subscribe{
+    width: 110px;
+    height: 40px;
+    background-color: rgba(187, 177, 177, 0.637);
+    padding-left: 10px;
+    padding-top: 17px;
+    margin-top: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.subscribe:hover{
+    background-color: rgba(214, 205, 205, 0.884);
+}
+.levidiv{
+    width: 830px;
+    height: 2500px;
+    border: 1px solid black;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    top:10px;
+    left:40px;
+}
+.kartalevo{
+    border: 1px solid black;
+    width: 750px;
+    height: 1100px;
+    margin: 20px auto;
+}
+.kartalevo>h3,h6{
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-family:serif;
+}
+.kartalevo>p{
+    font-size:17px;
+    padding-top: 23px;
+    font-family: serif;
+    margin-bottom: 15px;
+    padding-bottom: 20px;
+}
+.kartalevo>h6{
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.datum{
+    color: rgb(170, 164, 164);
+}
+.sesir{
+    width: 900px;
+    height: 500px;
+    margin-top: 20px;
+}
+.kartalevo>a{
+    font-size: 18px;
+    padding: 10px;
+    border: 1px grey solid;
+}
+.replies{
+    background-color: black;
+    color: white;
+    float: right;
+    width: 90px;
+    
+}
+.crta{
+    width: 700px;
+    height: 2px;
+    border: 1px rgba(228, 210, 210, 0.521) solid;
+    border-radius: 2px;
+    background-color: rgba(212, 194, 194, 0.548) ;
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+.desnidiv{
+    width: 400px;
+    height: 100%;
+    border: 1px solid black;
+    margin: 10px 5px;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    left: 910px;
+}
+.prvodesno{
+    background-color: black;
+    color: white;
+    width: 400px;
+    height: 400px;
+}
