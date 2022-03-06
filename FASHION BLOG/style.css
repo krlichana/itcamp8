@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-color: lightgray;
+    background-color: rgb(233, 231, 231);
 }
 .nav{
     width: 100%;
@@ -12,17 +12,16 @@ body{
 }
 
 .icon{
-    color: aliceblue;
+    color: rgb(247, 247, 247);
     width: 20px;
     height: 40px;
-    margin: 4px 12px;
-    padding-top: 5px;
+    margin: 1px 12px;
+    padding-top: 8px;
 }
 .proba:hover{
     background-color: rgb(190, 216, 236);
     color: black;
-    width: 40px;
-    height: 20px;
+    padding: 5px 0px;
 }
 .lupa{
     float: right;
@@ -31,14 +30,17 @@ body{
 .header{
 width: auto;
 height: 150px;
-border: 1px solid black;
 text-align: center;
 padding-top: 75px;
 background-color: white;
 }
-h1,h6{
-    font-family:sans-serif;
+h1, h3, h6{
+    font-family: 'Oswald', sans-serif;
 }
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
 h1{
     padding-bottom: 10px;
 }
@@ -92,16 +94,14 @@ a{
 }
 .levidiv{
     width: 830px;
-    height: 2500px;
-    border: 1px solid black;
     background-color: white;
     display: inline-block;
     position: relative;
     top:10px;
     left:40px;
 }
+
 .kartalevo{
-    border: 1px solid black;
     width: 750px;
     height: 1100px;
     margin: 20px auto;
@@ -110,12 +110,10 @@ a{
     margin-top: 10px;
     font-size: 30px;
     text-align: center;
-    font-family:serif;
 }
 .kartalevo>p{
     font-size:17px;
     padding-top: 23px;
-    font-family: serif;
     margin-bottom: 15px;
     padding-bottom: 20px;
 }
@@ -154,17 +152,14 @@ a{
     margin-left: 20px;
 }
 
-
-
-
-
-
+.slicica{
+    width: 100px;
+    height: 110px;
+    margin-top: 10px;
+}
 .desnidiv{
     width: 400px;
-    height: 100%;
-    border: 1px solid black;
     margin: 10px 5px;
-    background-color: white;
     display: inline-block;
     position: absolute;
     left: 910px;
@@ -173,5 +168,142 @@ a{
     background-color: black;
     color: white;
     width: 400px;
-    height: 400px;
+    height: 370px;
+}
+.prvodesno>h4{
+    font-size: 20px;
+    margin:10px;
+}
+.prvodesno>p{
+    font-size: 18px;
+    margin: 10px;
+}
+.popularpost, .ad , .tag , .inspiration, .followme , .email{
+    width: 380px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 10px;
+}
+.tag, .inspiration, .followme , .email {
+    font-size: 15px;
+}
+.tagovi, .addemail, .follow , .inspophoto, .container, .list, .containeremail{
+    background-color: white;
+}
+.list{
+    width: 400px;
+    height: 500px;
+}
+.listphoto{
+    width: 70px;
+    margin-top: 10px;
+}
+ul{
+    list-style: none;
+}
+li:hover{
+    background-color: rgb(212, 212, 235);
+}
+span{
+    text-align: center;
+}
+
+.container{
+    width: 400px;
+    height: 250px;
+}
+.addhere{
+    width: 300px;
+    height: 150px;
+    background-color: rgba(223, 230, 228, 0.932);
+    text-align: center;
+    font-size: 20px;
+    padding-top: 40px;
+    position: relative;
+    top:30px;
+    left:50px;
+}
+.tagovi{
+    width:390px;
+    height: 70px;
+    padding: 20px 5px;
+}
+.blacktag, .graytag{
+    background-color: black;
+    color: white;
+    font-size:15px;
+    margin: 5px 5px;
+    padding: 0 4px;
+}
+.blacktag{
+    font-size: 18px;
+}
+.graytag{
+    background-color: rgba(214, 205, 205, 0.87);
+    color: black;
+}
+.inspophoto{
+    width: 400px;
+    height: 310px;
+}
+.team{
+    width: 170px;
+    height: 130px;
+    margin: 5px 3px;
+    padding: 5px 10px;   
+}
+.followme{
+    font-size: 15px;
+}
+.follow{
+    width: 400px;
+    height: 50px;
+    padding-top: 10px;
+}
+.followicon{
+    color: black;
+    font-size: 23px;
+    margin: 5px auto;
+    padding-left: 3px;
+}
+.email{
+    margin-top: 50px;
+}
+.containeremail{
+    width: 400px;
+    height: 220px;
+}
+.addemail{
+    font-size: 18px;
+    padding: 15px 7px;
+    margin: 10px 5px;
+}
+form{
+    margin: 15px 10px;
+}
+input{
+    width: 100%;
+    padding: 10px 5px;
+}
+.button{
+    background-color: rgba(199, 69, 69, 0.945);
+    width: 350px;
+    height: 30px;
+    padding: 10px 5px;
+    margin: 15px auto;
+    color: white;
+    text-align: center;
+}
+
+.button:hover{
+    background-color: lightgray;
+    padding: 10px 5px;
+}
+hr{
+    height: 30px;
+    background-color: rgb(233, 231, 231);
+    border:rgb(233, 231, 231)
 }
