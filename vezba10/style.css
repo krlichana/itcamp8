@@ -1,0 +1,15 @@
+nav{
+    width: 100vw;
+    height: 50px;
+    padding: 10px 20px;
+    display: inline;
+}
+ul{
+    list-style-type: none;
+    background-color: rgb(47, 101, 201);
+
+}
+li{
+float: right;
+
+}
