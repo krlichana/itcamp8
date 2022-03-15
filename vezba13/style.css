@@ -1,0 +1,39 @@
+
+div{
+    width: 10px;
+    height: 10px;
+    margin: 30px;
+    font-size: 15px;
+    padding: 50px;
+    display: inline-block;
+    animation: anim1 2s ease;
+    animation-iteration-count: infinite;
+}
+.dots1{
+    animation-delay: 0.5s;
+}
+.dots2{
+    animation-delay: 1s;
+}
+
+@keyframes anim1 {
+    0%{
+        background-color: gray;
+
+        border-radius:50%;
+        transform: scale(1);
+    }
+    50%{
+        background-color: gray;
+        border-radius:50%;
+        transform: scale(1.5);
+
+    }
+    100%{
+        background-color: gray;
+
+        border-radius:50%;
+        transform: (1);
+    }
+
+}

@@ -1,0 +1,39 @@
+.main{
+    width: 250px;
+    height: 250px;
+    background-color: pink;
+    animation: anim1 5s ease  ;
+}
+@keyframes anim1 {
+    
+    0% {
+        background-color: rgb(70, 26, 99);
+        position: relative;
+        top:0;
+        left: 0;
+    }
+    25% {
+        background-color: blue;
+        position: relative;
+        top:500px;
+        left:0px;
+    }
+    50%{
+        
+        background-color: rgb(3, 3, 26);
+        position: relative;
+        top :500px;
+        left: 500px;
+    }
+    70%{
+        background-color: brown;
+        top:0px;
+        left:500px;
+    }
+    100%{
+        background-color: aqua;
+        position:relative;
+        top: 0;
+        left:0;
+    }
+}
