@@ -14,3 +14,9 @@ main{
 ul{
     list-style-type: none;
 }
+h1 , h2{
+    font-size: 22px;
+}
+p{
+    color: rgb(87, 84, 84);
+}
