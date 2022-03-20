@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(98, 72, 122);
+}
+.container{
+    text-align: center;
+    position: relative;
+    display: block;
+    margin: 200px;
+}
+.purple,
+.darkpurple,
+.green,
+.yellow,
+.orange,
+.red{
+    width: 60px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    transform-origin: center 90%;
+
+}
+.purple{
+    background-color: plum;
+    animation: ljubicasta 3s ease;
+}
+.darkpurple{
+    background-color: purple;
+    animation: tamnolj 3s ease ;
+}
+.green{
+    background-color: green;
+    animation: zelena 3s ease ;
+}
+.yellow{
+    background-color: yellow;
+    animation: zuta 3s ease ;
+}
+.orange{
+    background-color: orange;
+    animation: narandzasta 3s ease ;
+}
+.red{
+    background-color: red;
+    animation: crvena 3s ease ;
+}
+@keyframes ljubicasta{
+0%{
+    transform: rotate(0deg);
+}
+50%{
+    transform: rotate(-65deg);
+}
+100%{
+    transform: rotate(0deg);
+} 
+}
+@keyframes tamnolj{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-45deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    } 
+}
+@keyframes zelena{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-15deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    } 
+}
+@keyframes zuta{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(15deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    } 
+    }
+    @keyframes narandzasta{
+        0%{
+            transform: rotate(0deg);
+        }
+        50%{
+            transform: rotate(45deg);
+        }
+        100%{
+            transform: rotate(0deg);
+        } 
+        }
+        @keyframes crvena{
+            0%{
+                transform: rotate(0deg);
+            }
+            50%{
+                transform: rotate(65deg);
+            }
+            100%{
+                transform: rotate(0deg);
+            } 
+            }
