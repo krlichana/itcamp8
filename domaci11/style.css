@@ -1,0 +1,77 @@
+.card{
+    width: 50vw;
+    height: 130vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 10px 20vw ;
+    border: 1px solid black;
+}
+.header{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding-top: 5px;
+
+}
+.podaci>input{
+    width: 39%;
+    height: 30px;
+
+}
+.podaci{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+    flex-direction: row;
+    padding: 10px;
+    
+}
+.pol{
+    width: 40%;
+    height: 10%;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+}
+.robot{
+    width: 50%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.uslovi{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.confirm{
+    display: inline;
+    margin-bottom: 5px;
+}
+.button{
+    width: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 30px;
+}
+a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 5px;
+}
+.button:hover{
+    background-color: gray;
+    
+}

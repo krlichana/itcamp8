@@ -3,6 +3,7 @@
     height: 250px;
     background-color: pink;
     animation: anim1 5s ease  ;
+    animation-iteration-count: infinite;
 }
 @keyframes anim1 {
     
