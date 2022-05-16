@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 500px;
+    height: 300px;
+    display: grid;
+
+ grid-template-columns: repeat(5, 1fr);
+
+   grid-template-areas:
+  "a a a a a"
+  "b b c c c"
+  "b b c2 c2 c2"
+  "d d1 d1 d1 d2";
+  gap:4px;
+}
+.crvena {
+    background-color: red;
+    grid-area: a;
+  }
+.zuta{
+    background-color: rgb(251, 255, 0);
+    grid-area: b;
+  }
+.zuta2{
+    background-color: rgb(251, 255, 0);
+    grid-area: b2;
+  }
+.ljubicasta {
+    background-color: rgb(69, 21, 114);
+    grid-area: c;
+  }
+ .ljubicasta2 {
+    background-color: rgb(69, 21, 114);
+    grid-area: c2;
+  }
+.plava{
+      background-color: blue;
+      grid-area: d;
+  }
+  .plava1{
+    background-color: blue;
+    grid-area: d1;
+}
+.plava2{
+  background-color: blue;
+  grid-area: d2;
+}
